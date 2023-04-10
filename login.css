@@ -1,0 +1,184 @@
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.wallet-button{
+
+    width: 20em;
+    height: 4em;
+    color: #FAF9F9;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    background: #EAB643;
+    border-radius: 19px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+.wallet-button:hover {
+    background-color: #dbaf48;
+}
+
+.text-content{
+  /* BetterFund Crowdfunding */
+
+float: left;
+margin-top: 369px;
+margin-left: 200px;
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+.image-section{
+  float: right; 
+  margin-top:310px;
+  margin-right: 200px;
+  margin-bottom: 0px;
+  width: 35em;
+  height: 22.563em;
+  
+  
+
+}
+
+.crowdfunding-heading{
+
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.text-details{
+
+    font-weight: 500;
+    font-size: 1.25em;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.material-symbols-outlined {
+    font-size: 2.5em !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: unset;
+    
+
+  }
+
+  .image-section img{
+      width: 300px;
+     
+  }
+
+  .image-section {
+      float: none; 
+      margin-top: 100px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      width: 50%;
+  }
+
+  .text-content{
+      /* BetterFund Crowdfunding */
+    
+    float: none;
+    margin-top: -167px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    }
+
+    .text-details {
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.75);
+      display: inline;
+  }
+
+  .wallet-button{
+
+    width: 16em;
+    height: 4em;
+    color: #FAF9F9;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    background: #EAB643;
+    border-radius: 19px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3rem;
+}
+}
+
+@media only screen and (max-width: 567px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+  }
+
+  .image-section img{
+      width: 300px;
+     
+  }
+
+  .image-section {
+      float: none; 
+      margin-top: 100px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      width: 50%;
+  }
+
+  .text-content{
+      /* BetterFund Crowdfunding */
+    
+    float: none;
+    margin-top: -167px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    }
+
+  .text-details {
+      font-weight: 500;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.75);
+      display: inline;
+      text-align: justify;
+  }
+
+  .wallet-button {
+      height: 3em;
+      width: 13em;
+      font-size: 1.5em;
+  }
+
+  .crowdfunding-heading{
+  
+      font-weight: 600;
+      font-size: 35px;
+  }
+}
